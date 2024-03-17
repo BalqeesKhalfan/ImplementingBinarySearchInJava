@@ -66,7 +66,7 @@ public class BinarySearch {
 
         // Checking element in whole array
         while (left <= right) {
-            Integer mid = left + (right) / 2;//find the midle value of array
+            Integer mid = (left + right) / 2;//find the midle value of array
             if (arr[mid].equals(target)) // Check if target is found at midle value index
                 return mid;
             // If target greater, ignore left half
